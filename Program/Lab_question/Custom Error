@@ -1,0 +1,10 @@
+class NegativeNumberError(Exception):
+    pass
+try:
+    lst=[1,3,4,5,6,6123,2]
+    for i in lst:
+        if i<0:
+            raise NegativeNumberError
+        print(i)
+except NegativeNumberError as error:
+    print(f"Error occured there is and negative number")
