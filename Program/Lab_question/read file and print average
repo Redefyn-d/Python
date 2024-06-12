@@ -1,0 +1,7 @@
+with open("Newfile.txt","r") as f:
+    avg=0
+    value=f.readline().split(",")
+    value.pop()
+    for i in value:
+        avg=avg+int(i)
+    print(f"Average is {avg/3}")
