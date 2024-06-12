@@ -1,0 +1,7 @@
+lst=[1,2,34,5,6,7,8,9,10,11]
+n_ar=np.array(lst)
+a=int(input())
+n_ar=np.insert(n_ar,0,a)
+print(n_ar)
+n_ar=np.delete(n_ar,0)
+print(n_ar)
