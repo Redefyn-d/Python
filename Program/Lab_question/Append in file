@@ -1,0 +1,7 @@
+with open('Newfile.txt','a') as file:
+    file.write("101\n")
+    file.write("updated succesfully.\n")
+with open('Newfile.txt','r') as file:
+    up=file.read()
+    print("Updated file content:")
+    print(up)
