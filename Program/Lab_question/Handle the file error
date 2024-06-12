@@ -1,0 +1,5 @@
+try:
+    with open("NewFile.txt","r") as f:
+        print(f.read())
+except EOFError:
+    print("The file does not exist")
