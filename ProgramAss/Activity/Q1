@@ -1,0 +1,21 @@
+'''import numpy as np
+import random as r
+n=input().split()
+n=np.array(n)
+print("original array :",n)
+while True:
+    print("Enter\n1 to add\n2 to remove\n3 to Exit\n")
+    x=int(input())
+    if x==1:
+        print(("Enter a number to add :\n"))
+        z=int(input())
+        a=np.append(n,z)
+        print(a)
+    elif x==2:
+        print("Enter a number to remove :\n")
+        z=int(input())
+        d=np.delete(n,0)
+        print(d)
+    else:
+        print("Updated")
+        break'''
