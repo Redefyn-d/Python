@@ -1,7 +1,7 @@
-'''import random
+import random
 file_path="Random_numbers.txt"
 num=int(input())
 with open(file_path,"w")as file:
     for i in range(0,num):
         file.write(str(random.randint(1,100))+"\n")
-print(f"{num} random numbers generated and save in {file_path}")'''
+print(f"{num} random numbers generated and save in {file_path}")
