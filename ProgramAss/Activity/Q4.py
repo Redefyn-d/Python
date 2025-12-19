@@ -1,7 +1,7 @@
-'''f=input()
+f=input()
 try:
     with open(f,"r")as file:
         content=file.read()
         print(content)
 except FileNotFoundError:
-    print("File not Found")'''
+    print("File not Found")
