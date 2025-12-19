@@ -1,4 +1,4 @@
-'''import numpy as np
+import numpy as np
 import random as r
 n=input().split()
 n=np.array(n)
@@ -18,4 +18,4 @@ while True:
         print(d)
     else:
         print("Updated")
-        break'''
+        break
