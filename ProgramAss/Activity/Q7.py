@@ -1,4 +1,4 @@
-'''import numpy as np
+import numpy as np
 import random
 a=[]
 for i in range(0,12):
@@ -8,4 +8,4 @@ print("the original array :",a)
 b=a.reshape(3,4)
 print("after reshaping array  :\n",b)
 print("indexing Value :",b[1,2])
-print("Slicing of a range of Value :\n",b[:,1:3])'''
+print("Slicing of a range of Value :\n",b[:,1:3])
