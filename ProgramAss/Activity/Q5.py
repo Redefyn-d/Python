@@ -1,5 +1,5 @@
-'''with open('Random_numbers.txt', 'r') as file:
+with open('Random_numbers.txt', 'r') as file:
     n=[int(line.strip())for line in file]
     print(“Random Numbers:\n”,n)
     average = sum(n) / len(n)
-print(f'The average of the random numbers is: {average}')'''
+print(f'The average of the random numbers is: {average}')
